@@ -8,7 +8,7 @@ const Weather= props =>(
 <p>давление: {props.pressure}</p>
 <p>заход солнца: {props.sunset}</p>
 </div>}
-<p>ошибка {props.error}</p>
+{props.error? <p>ошибка {props.error}</p>:""}
 </div>
 		);
 

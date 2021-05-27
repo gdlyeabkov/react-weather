@@ -44,7 +44,7 @@ gettingWeather= async (e)=>{
 
 render(){
 	return(
-<div>
+<div class="container ">
 <Info/>
 <Form weatherMethod={this.gettingWeather}/>
 <Weather
